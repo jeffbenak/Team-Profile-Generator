@@ -17,7 +17,6 @@ function generateHtml(data) {
                 </ul>
               </div>
               </div>
-            </div>
           </div>
         </div>
     `;
@@ -60,7 +59,6 @@ function generateHtml(data) {
         </div>
         </div>
       </div>
-    </div>
       `
   
 }}

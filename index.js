@@ -163,17 +163,19 @@ let html = `<!DOCTYPE html>
 <div class="container-fluid p-0 mb-0">
           <div class="jumbotron bg-danger text-light">
               <div class="container text-center">
-                  <h1 class="display-4">My Team</h1>
+                  <h1 class="display-2">My Team</h1>
               </div>
           </div>
           <div class="container">
               <div class="row justify-content-center" id="cards">
-
+` 
+let closingHtmlTags = 
+`
 </div>
-</div>
-               
+</div>           
 </body>
-</html>`;
+</html>
+`;
 
  //Function that will generate the team
 
@@ -184,7 +186,10 @@ for (i = 0; i < employees.length; i++) {
     console.log(employeeCard);
     html += employeeCard;
 }
-fs.writeFile('index.html', html, function(err){
+
+html += closingHtmlTags;
+
+fs.writeFile('./dist/index.html', html, function(err){
     if(err)throw err
     console.log('file written');
 })
