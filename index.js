@@ -112,7 +112,7 @@ inquirer.prompt(mainQuestion).then(function(answers){
     else if (answers.choice === 'Engineer') {
         engineerPrompt();
     }
-    else if (answers.choice === 'Quit') {
+    else if (answers.choice === 'Create Team') {
         createTeam();
     }
 });
@@ -140,17 +140,9 @@ inquirer.prompt(internQuestions).then(function(answers){
     
 })
 
- //Function that will generate the app
+
 }
-//  function quitPrompt() {
-//      let data = generateHtml(employees);
-//      fs.writeFile('index.html', data, function(err){
-//          if(err)throw err
-//          console.log('file written');
-//      })
-    
-//  }
-// Function call to initialize app
+
 init();
 
 
@@ -160,12 +152,30 @@ let html = `<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/4d07055d3e.js" crossorigin=“anonymous”></script>
+<title>Team Document</title>
 </head>
-<body> 
+<body>
+<div class="container-fluid p-0 mb-0">
+          <div class="jumbotron bg-danger text-light">
+              <div class="container text-center">
+                  <h1 class="display-4">My Team</h1>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row justify-content-center" id="cards">
+
+</div>
+</div>
+               
 </body>
 </html>`;
 
+ //Function that will generate the team
 
 function createTeam(){
 
