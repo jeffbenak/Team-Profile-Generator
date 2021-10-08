@@ -163,7 +163,7 @@ let html = `<!DOCTYPE html>
 <div class="container-fluid p-0 mb-0">
           <div class="jumbotron bg-danger text-light">
               <div class="container text-center">
-                  <h1 class="display-2">My Team</h1>
+                  <h1 class="display-7">My Team</h1>
               </div>
           </div>
           <div class="container">
