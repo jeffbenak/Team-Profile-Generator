@@ -3,7 +3,6 @@
 ## Description 
 
 This project is a command line prompt that generates an html file in the form of a team profile. You can add an engineer or intern role to your profile, but can only have one manager. Once the file is generated, it will be displayed in an html file and organized with all the information entered by the user.
-## Table of Contents
 
 ## Installation
 
