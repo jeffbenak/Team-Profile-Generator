@@ -1,89 +1,25 @@
-# 04 Web APIs: Code Quiz
+# Team Profile Generator
 
-## Your Task
+## Description 
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+This project is a command line prompt that generates an html file in the form of a team profile. You can add an engineer or intern role to your profile, but can only have one manager. Once the file is generated, it will be displayed in an html file and organized with all the information entered by the user.
+## Table of Contents
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Installation
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+- Download the file from github.
+- Run npm install so you have all the required components to run the program.
 
-## User Story
+## Usage
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+- You must invoke the application using node index.js, and then answer each question for the manager, and then from there decide if you would like to add an intern or engineer. 
+- Once you finish adding people to your team, you can select create team, which will generate a team profile that uses all of the information you entered in the prompt.
 
-## Acceptance Criteria
+## Walkthrough-Video
+- Below is a link to a walkthrough video showing how to use the program: 
+https://watch.screencastify.com/v/yKh1vAgO8AK9Mgs5DX2p
+- Below are screenshots of a sample html file that was generated using the program. 
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+![Screenshot (89)](https://user-images.githubusercontent.com/87049684/136637304-5dede650-8c18-4f7b-96a5-cdbf09f7d342.png)
 
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![Screenshot (90)](https://user-images.githubusercontent.com/87049684/136637311-3fd44463-d5a2-42b8-a0a2-a1f82b41ee7a.png)
